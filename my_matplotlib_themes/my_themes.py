@@ -1,7 +1,7 @@
 import matplotlib
 import matplotlib.pyplot as plt
 
-def default_tex_report():
+def _default():
 
     title_fontsize = 14
     legend_fontsize = 12
@@ -53,3 +53,16 @@ def default_tex_report():
     plt.rcParams['savefig.bbox'] = 'tight'
 
 
+def default_tex_report():
+
+    _default()
+
+
+def default_beamer():
+
+    _default()
+
+    matplotlib.rcParams['mathtext.fontset'] = 'dejavusans'
+    matplotlib.rcParams['font.family'] = 'sans-serif'
+    matplotlib.rcParams['font.sans-serif'] = 'CMU Sans Serif'
+    
