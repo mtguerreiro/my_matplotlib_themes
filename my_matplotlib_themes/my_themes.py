@@ -44,6 +44,7 @@ def _default():
     plt.rcParams['legend.fontsize'] = legend_fontsize
 
     # Title
+    plt.rcParams['figure.titlesize'] = title_fontsize
     plt.rcParams['axes.titlesize'] = title_fontsize
     #plt.rcParams['figure.titlesize'] = title_fontsize
     #plt.rcParams['figure.titleweight'] = title_fontsize
