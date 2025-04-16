@@ -66,4 +66,10 @@ def default_beamer():
     matplotlib.rcParams['mathtext.fontset'] = 'dejavusans'
     matplotlib.rcParams['font.family'] = 'sans-serif'
     matplotlib.rcParams['font.sans-serif'] = 'CMU Sans Serif'
+
     
+def default_ieee():
+
+    _default()
+
+    matplotlib.rcParams['font.serif'] = 'Times New Roman'
