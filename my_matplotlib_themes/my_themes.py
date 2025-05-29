@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 def _default():
 
-    title_fontsize = 14
+    title_fontsize = 15
     legend_fontsize = 12
     label_fontsize = 14
     tick_fontsize = 14
